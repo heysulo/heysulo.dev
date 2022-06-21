@@ -1,0 +1,143 @@
+.about .portrait-box .portrait {
+  height: 128px;
+  width: 128px;
+}
+.about .basic-info .name {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.about .basic-info .name h1 {
+  font-size: 1.4rem;
+  color: #111;
+  margin-bottom: 0;
+}
+.about .basic-info .name h2 {
+  font-size: 0.9rem;
+  color: #444;
+  font-weight: 400;
+  margin-bottom: 2px;
+}
+.about .basic-info .name h3 {
+  font-size: 0.6rem;
+  color: #999;
+  margin-bottom: 0;
+}
+.about .basic-info .name h3 b {
+  color: #444;
+}
+.about .basic-info .name h4 {
+  font-size: 0.6rem;
+  color: #999;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+.about .basic-info .links {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 15px 0 0 0;
+}
+.about .basic-info .links a {
+  margin: 0 0 0 5px;
+}
+.about .basic-info .links a img {
+  width: 16px;
+  height: 16px;
+}
+.about .basic-info .links a:last-child {
+  margin-right: 0;
+}
+.about div.description > p {
+  font-size: 0.9em;
+  text-align: justify;
+  padding: 20px 0 0 0;
+}
+
+@media screen and (max-width: 420px) {
+  .no-mobile {
+    visibility: hidden;
+    display: none;
+  }
+  .col-3 {
+    max-width: 100% !important;
+  }
+  .col-9 {
+    max-width: 100% !important;
+  }
+  .about > div.row {
+    align-items: center;
+    justify-content: center !important;
+  }
+  .basic-info .name {
+    align-items: center !important;
+  }
+  .basic-info .name h1 {
+    text-align: center;
+  }
+  .basic-info .links {
+    justify-content: center !important;
+  }
+}
+.experience .item .heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.experience .item .heading .data-box .name {
+  font-size: 1.2em;
+  font-weight: bolder;
+}
+.experience .item .heading .data-box .timespan {
+  color: #999;
+  font-size: 0.7em;
+}
+.experience .item .heading .logo-box img {
+  height: 32px;
+}
+.experience .item .description {
+  text-align: justify;
+  font-size: 0.9em;
+  padding: 5px 0 25px 0;
+}
+
+@media screen and (max-width: 480px) {
+  .experience .item .heading .logo-box {
+    visibility: hidden;
+    display: none;
+  }
+}
+.container.body {
+  padding: 30px 20px 0 20px;
+  max-width: 800px;
+  border-top: 12px solid #FF5500;
+  border-bottom: 25px solid #FF5500;
+  min-height: 100vh;
+}
+
+section h1.heading {
+  text-transform: uppercase;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  font-size: 1.5em;
+  font-weight: bolder;
+  color: #FF5500;
+}
+
+.under-construction > div.row {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.under-construction > div.row img {
+  height: 100px;
+  width: 100px;
+}
+.under-construction > div.row p {
+  font-size: 0.9em;
+  padding-top: 10px;
+  color: #444;
+}
+
+/*# sourceMappingURL=styles.css.map */

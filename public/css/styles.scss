@@ -1,0 +1,41 @@
+@import "theme";
+@import "sections/about";
+@import "sections/experience";
+
+$page-width: 800px;
+
+.container.body {
+  padding: 30px 20px 0 20px;
+  max-width: $page-width;
+  border-top: 12px solid $theme-orange;
+  border-bottom: 25px solid $theme-orange;
+  min-height: 100vh;
+}
+
+section {
+  & h1.heading {
+    text-transform: uppercase;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    font-size: 1.5em;
+    font-weight: bolder;
+    color: $theme-orange;
+  }
+}
+
+.under-construction > div.row{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  img {
+    height: 100px;
+    width: 100px;
+  }
+  p{
+    font-size: 0.9em;
+    padding-top: 10px;
+    color: #444;
+  }
+}
+
